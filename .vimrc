@@ -25,6 +25,8 @@ map <F3> :TagbarToggle <CR>
 " Map keys for navigating tabs.
 map <S-Left> :tabp <CR>
 map <S-Right> :tabn <CR>
+" Run make
+map <F7> :!make all <CR>
 
 " Perform the beautification.
 set cursorline
