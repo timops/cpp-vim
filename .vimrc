@@ -36,3 +36,6 @@ hi  StatusLine ctermfg=yellow
 
 " instruct delimitMate plugin to move } to separate line after <CR>
 autocmd FileType cpp let b:delimitMate_expand_cr = 1
+
+" make ctags work with :tag command
+set nocst
