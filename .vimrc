@@ -32,7 +32,8 @@ map <F7> :!make all <CR>
 set cursorline
 hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 set laststatus=2
-hi  StatusLine ctermfg=yellow
+hi StatusLine ctermfg=yellow
+hi TabLineSel ctermbg=Blue
 
 " instruct delimitMate plugin to move } to separate line after <CR>
 autocmd FileType cpp let b:delimitMate_expand_cr = 1
