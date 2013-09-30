@@ -40,3 +40,6 @@ autocmd FileType cpp let b:delimitMate_expand_cr = 1
 
 " make ctags work with :tag command
 set nocst
+
+" don't show certain file types in the nerdtree
+let NERDTreeIgnore = ['\.o', '\.x']
