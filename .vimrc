@@ -12,6 +12,8 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 
+set backspace=indent,eol,start
+
 " NERDTree defaults
 "autocmd vimenter * NERDTree
 autocmd vimenter * if !argc() | NERDTree | endif
