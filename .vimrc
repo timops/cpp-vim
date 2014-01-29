@@ -15,6 +15,7 @@ set softtabstop=2
 set backspace=indent,eol,start
 
 set hlsearch
+set ruler
 
 " NERDTree defaults
 "autocmd vimenter * NERDTree
