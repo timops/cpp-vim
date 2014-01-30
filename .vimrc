@@ -41,7 +41,7 @@ hi StatusLine ctermfg=yellow
 hi TabLineSel ctermbg=Blue
 
 " instruct delimitMate plugin to move } to separate line after <CR>
-autocmd FileType cpp let b:delimitMate_expand_cr = 1
+autocmd FileType cpp,c let b:delimitMate_expand_cr = 1
 
 " make ctags work with :tag command
 set nocst
