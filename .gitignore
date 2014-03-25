@@ -9,6 +9,3 @@ _temp
 # Plugins without git-mirror
 watchtower.vim
 mustache.vim
-
-# module update shell script
-update.sh
